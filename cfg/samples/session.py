@@ -1,0 +1,30 @@
+desired_capabilities = {
+    "aweme": {
+        'platformName': 'Android',
+        'udid': "{}",
+        'deviceName': "{}",
+        'platformVersion': "{}",
+        'appPackage': 'com.ss.android.ugc.aweme',
+        'appActivity': 'com.ss.android.ugc.aweme.main.MainActivity',
+        'systemPort': "{}",
+        "noReset": True,
+        "newCommandTimeout": 600000,
+        "autoAcceptAlerts": True,
+        "recreateChromeDriverSessions": True,
+        "unicodeKeyboard": True,
+        "resetKeyboard": True,
+    },
+    "gifmaker": {
+        'platformName': 'Android',
+        'udid': "{}",
+        'deviceName': "{}",
+        'platformVersion': "{}",
+        'appPackage': 'com.smile.gifmaker',
+        'appActivity': 'com.yxcorp.gifshow.HomeActivity',
+        'systemPort': "{}",
+        "noReset": True,
+        "newCommandTimeout": 600000,
+        "autoAcceptAlerts": True,
+        "recreateChromeDriverSessions": True,
+    }
+}
